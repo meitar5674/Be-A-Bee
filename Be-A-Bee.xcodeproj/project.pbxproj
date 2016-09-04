@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A902C9971D7B60D600EC8B05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A902C9961D7B60D600EC8B05 /* StoreKit.framework */; };
+		A93AFD271D771030001298FB /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AFD261D771030001298FB /* GameManager.swift */; };
+		A93AFD291D778616001298FB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AFD281D778616001298FB /* GameOverScene.swift */; };
+		A943D2841D73FE880041F57A /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943D2821D73FE880041F57A /* SCLAlertView.swift */; };
+		A943D2851D73FE880041F57A /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943D2831D73FE880041F57A /* SCLExtensions.swift */; };
 		A9577D021D6F5FE900F48B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D011D6F5FE900F48B8D /* AppDelegate.swift */; };
 		A9577D041D6F5FE900F48B8D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9577D031D6F5FE900F48B8D /* GameScene.sks */; };
-		A9577D061D6F5FE900F48B8D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D051D6F5FE900F48B8D /* GameScene.swift */; };
+		A9577D061D6F5FE900F48B8D /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D051D6F5FE900F48B8D /* HomeScene.swift */; };
 		A9577D081D6F5FE900F48B8D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D071D6F5FE900F48B8D /* GameViewController.swift */; };
 		A9577D0B1D6F5FE900F48B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9577D091D6F5FE900F48B8D /* Main.storyboard */; };
 		A9577D0D1D6F5FE900F48B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9577D0C1D6F5FE900F48B8D /* Assets.xcassets */; };
 		A9577D101D6F5FE900F48B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9577D0E1D6F5FE900F48B8D /* LaunchScreen.storyboard */; };
+		A9577D191D7047A600F48B8D /* InfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D181D7047A600F48B8D /* InfoScene.swift */; };
+		A9577D1B1D7047B100F48B8D /* BeesInfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D1A1D7047B100F48B8D /* BeesInfoScene.swift */; };
+		A9577D1D1D7047B600F48B8D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D1C1D7047B600F48B8D /* Store.swift */; };
+		A9577D1F1D7047BD00F48B8D /* SellHoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D1E1D7047BD00F48B8D /* SellHoney.swift */; };
+		A9577D211D7047D700F48B8D /* BeeHomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577D201D7047D700F48B8D /* BeeHomeScene.swift */; };
+		A95860811D7605D00055DDC0 /* BeeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95860801D7605D00055DDC0 /* BeeGameScene.swift */; };
+		A95860831D7623540055DDC0 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95860821D7623540055DDC0 /* Clouds.swift */; };
+		A95860861D7623DD0055DDC0 /* SKNodeUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95860851D7623DD0055DDC0 /* SKNodeUpdate.swift */; };
+		A95860881D762A3E0055DDC0 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95860871D762A3E0055DDC0 /* Moon.swift */; };
+		A958608B1D762C930055DDC0 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958608A1D762C930055DDC0 /* Stars.swift */; };
+		A958608D1D76336E0055DDC0 /* Stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958608C1D76336E0055DDC0 /* Stones.swift */; };
+		A958608F1D76CCB10055DDC0 /* Jar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958608E1D76CCB10055DDC0 /* Jar.swift */; };
+		A95860911D76D5850055DDC0 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95860901D76D5850055DDC0 /* Bee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A902C9961D7B60D600EC8B05 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A93AFD261D771030001298FB /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		A93AFD281D778616001298FB /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A943D2821D73FE880041F57A /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		A943D2831D73FE880041F57A /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
 		A9577CFE1D6F5FE800F48B8D /* Be-A-Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be-A-Bee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9577D011D6F5FE900F48B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9577D031D6F5FE900F48B8D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A9577D051D6F5FE900F48B8D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A9577D051D6F5FE900F48B8D /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
 		A9577D071D6F5FE900F48B8D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A9577D0A1D6F5FE900F48B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9577D0C1D6F5FE900F48B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9577D0F1D6F5FE900F48B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9577D111D6F5FE900F48B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9577D181D7047A600F48B8D /* InfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScene.swift; sourceTree = "<group>"; };
+		A9577D1A1D7047B100F48B8D /* BeesInfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeesInfoScene.swift; sourceTree = "<group>"; };
+		A9577D1C1D7047B600F48B8D /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A9577D1E1D7047BD00F48B8D /* SellHoney.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellHoney.swift; sourceTree = "<group>"; };
+		A9577D201D7047D700F48B8D /* BeeHomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeHomeScene.swift; sourceTree = "<group>"; };
+		A95860801D7605D00055DDC0 /* BeeGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeGameScene.swift; sourceTree = "<group>"; };
+		A95860821D7623540055DDC0 /* Clouds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		A95860851D7623DD0055DDC0 /* SKNodeUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNodeUpdate.swift; sourceTree = "<group>"; };
+		A95860871D762A3E0055DDC0 /* Moon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
+		A958608A1D762C930055DDC0 /* Stars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		A958608C1D76336E0055DDC0 /* Stones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stones.swift; sourceTree = "<group>"; };
+		A958608E1D76CCB10055DDC0 /* Jar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jar.swift; sourceTree = "<group>"; };
+		A95860901D76D5850055DDC0 /* Bee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +69,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A902C9971D7B60D600EC8B05 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A93AFD251D771016001298FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A93AFD261D771030001298FB /* GameManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A943D2811D73FE6C0041F57A /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				A943D2821D73FE880041F57A /* SCLAlertView.swift */,
+				A943D2831D73FE880041F57A /* SCLExtensions.swift */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
 		A9577CF51D6F5FE800F48B8D = {
 			isa = PBXGroup;
 			children = (
+				A902C9961D7B60D600EC8B05 /* StoreKit.framework */,
 				A9577D001D6F5FE900F48B8D /* Be-A-Bee */,
 				A9577CFF1D6F5FE800F48B8D /* Products */,
 			);
@@ -58,16 +113,56 @@
 		A9577D001D6F5FE900F48B8D /* Be-A-Bee */ = {
 			isa = PBXGroup;
 			children = (
+				A93AFD251D771016001298FB /* Services */,
+				A95860841D7623CE0055DDC0 /* Extensions */,
+				A943D2811D73FE6C0041F57A /* Alert */,
+				A9577D171D70478400F48B8D /* Scenes */,
+				A9577D221D7047E900F48B8D /* Game Objects */,
+				A9577D0C1D6F5FE900F48B8D /* Assets.xcassets */,
 				A9577D011D6F5FE900F48B8D /* AppDelegate.swift */,
 				A9577D031D6F5FE900F48B8D /* GameScene.sks */,
-				A9577D051D6F5FE900F48B8D /* GameScene.swift */,
 				A9577D071D6F5FE900F48B8D /* GameViewController.swift */,
 				A9577D091D6F5FE900F48B8D /* Main.storyboard */,
-				A9577D0C1D6F5FE900F48B8D /* Assets.xcassets */,
 				A9577D0E1D6F5FE900F48B8D /* LaunchScreen.storyboard */,
 				A9577D111D6F5FE900F48B8D /* Info.plist */,
 			);
 			path = "Be-A-Bee";
+			sourceTree = "<group>";
+		};
+		A9577D171D70478400F48B8D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A9577D051D6F5FE900F48B8D /* HomeScene.swift */,
+				A9577D181D7047A600F48B8D /* InfoScene.swift */,
+				A9577D1A1D7047B100F48B8D /* BeesInfoScene.swift */,
+				A9577D1C1D7047B600F48B8D /* Store.swift */,
+				A9577D1E1D7047BD00F48B8D /* SellHoney.swift */,
+				A9577D201D7047D700F48B8D /* BeeHomeScene.swift */,
+				A95860801D7605D00055DDC0 /* BeeGameScene.swift */,
+				A93AFD281D778616001298FB /* GameOverScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		A9577D221D7047E900F48B8D /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A95860821D7623540055DDC0 /* Clouds.swift */,
+				A95860871D762A3E0055DDC0 /* Moon.swift */,
+				A958608A1D762C930055DDC0 /* Stars.swift */,
+				A958608C1D76336E0055DDC0 /* Stones.swift */,
+				A958608E1D76CCB10055DDC0 /* Jar.swift */,
+				A95860901D76D5850055DDC0 /* Bee.swift */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		A95860841D7623CE0055DDC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A95860851D7623DD0055DDC0 /* SKNodeUpdate.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +197,12 @@
 				TargetAttributes = {
 					A9577CFD1D6F5FE800F48B8D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M92873PKQM;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -142,9 +243,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9577D061D6F5FE900F48B8D /* GameScene.swift in Sources */,
+				A95860831D7623540055DDC0 /* Clouds.swift in Sources */,
+				A958608B1D762C930055DDC0 /* Stars.swift in Sources */,
+				A95860861D7623DD0055DDC0 /* SKNodeUpdate.swift in Sources */,
+				A958608D1D76336E0055DDC0 /* Stones.swift in Sources */,
+				A95860811D7605D00055DDC0 /* BeeGameScene.swift in Sources */,
+				A9577D211D7047D700F48B8D /* BeeHomeScene.swift in Sources */,
+				A9577D1B1D7047B100F48B8D /* BeesInfoScene.swift in Sources */,
+				A9577D191D7047A600F48B8D /* InfoScene.swift in Sources */,
+				A9577D061D6F5FE900F48B8D /* HomeScene.swift in Sources */,
+				A9577D1F1D7047BD00F48B8D /* SellHoney.swift in Sources */,
+				A93AFD291D778616001298FB /* GameOverScene.swift in Sources */,
+				A95860881D762A3E0055DDC0 /* Moon.swift in Sources */,
+				A9577D1D1D7047B600F48B8D /* Store.swift in Sources */,
 				A9577D081D6F5FE900F48B8D /* GameViewController.swift in Sources */,
+				A958608F1D76CCB10055DDC0 /* Jar.swift in Sources */,
+				A93AFD271D771030001298FB /* GameManager.swift in Sources */,
 				A9577D021D6F5FE900F48B8D /* AppDelegate.swift in Sources */,
+				A943D2851D73FE880041F57A /* SCLExtensions.swift in Sources */,
+				A95860911D76D5850055DDC0 /* Bee.swift in Sources */,
+				A943D2841D73FE880041F57A /* SCLAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +378,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Be-A-Bee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "meitar.com.Be-A-Bee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bce59097-2903-49db-b9a9-bdaf62a7424b";
 			};
 			name = Debug;
 		};
@@ -271,9 +391,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Be-A-Bee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "meitar.com.Be-A-Bee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bce59097-2903-49db-b9a9-bdaf62a7424b";
 			};
 			name = Release;
 		};
@@ -296,6 +418,7 @@
 				A9577D161D6F5FE900F48B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
